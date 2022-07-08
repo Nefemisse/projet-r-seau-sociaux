@@ -1,0 +1,242 @@
+.dropdown-toggle::after {
+    visibility: hidden;
+}
+.dropdown-toggle {
+    margin-right: -22px;
+}
+body {
+    overflow-x: hidden;
+}
+.shadow-2 {
+    box-shadow: 0px 1px 3px 0px rgb(90, 90, 90);
+}
+.shadow-1-strong {
+    box-shadow: 0px 2px 3px 0px rgb(90, 90, 90);
+    background-position: center;
+    background-size: cover;
+}
+.shadow-3-strong {
+    box-shadow: 1px 2px 12px 0px rgb(134, 134, 134);
+    background-position: center;
+    background-size: cover;
+}
+.bg-lighte_link:hover {
+    background-color: #f0f2f5 !important;
+    border-bottom: 3px solid rgb(43, 75, 255) !important;
+    color: rgb(43, 75, 255);
+}
+.bg-lighte_link{
+    background: none !important;
+    border: none;
+    padding-right: 15px;
+    margin-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 6px;
+}
+.bg-lighte_link:hover {
+    border-color: #f8f9fa;
+    border-top-color: rgb(248, 249, 250);
+    border-right-color: rgb(248, 249, 250);
+    border-bottom-color: rgb(248, 249, 250);
+    border-left-color: rgb(248, 249, 250);
+}
+.card1 {
+    max-width: 450px;
+    border-radius: 6px;
+}
+.card2 {
+    max-width: 665px;
+    width: 104%;
+    border-radius: 6px;
+}
+
+.publication {
+    width: 665px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 16px;
+}
+
+.mind {
+    width: 665px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row_post {
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+.ml-1 {
+    margin-left: 1%;
+}
+.mr-2 {
+    margin-right: 2px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-16 {
+    margin-right: 16px;
+}
+.mb-2 {
+    margin-bottom: 2px;
+}
+.mt-mb-4 {
+    margin: 4px 0 4px 0;
+}
+.bg:hover {
+    background-color: rgb(201, 201, 201);
+}
+.bg {
+    background-color: rgb(231, 231, 231);
+}
+.bg-light {
+    background-color: rgba(165, 165, 165, 0.253) !important;
+}
+.container {
+    max-width: 1140px;
+}
+a {
+    text-decoration: none;
+}
+.list-unstyled li {
+    margin-bottom: 8px;
+}
+.w-100 {
+    width: 100%;
+}
+.w-90 {
+    width: 95%;
+}
+.modal.active {
+    display: flex;
+}
+.modal {
+    position: absolute;
+    left: 25%;
+    top: 54%;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(245, 245, 245, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    margin-top: 8px;
+    max-width: 1114px;
+}
+
+@media (min-width: 1175px) {
+    .modal {
+        position: absolute;
+        left: 25%;
+        top: 54%;
+        align-items: center;
+        justify-content: center;
+    }
+    .none {
+        display: none;
+    }
+    .none1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1174px) {
+    .mind {
+        display: none;
+    }
+    .publication {
+        display: none;
+    }
+    .collumns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .modal {
+        position: absolute;
+        left: 10%;
+        top: 43%;
+        width: 80%;
+        height: 50%;
+        background-color: rgba(245, 245, 245, 0.9);
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        display: none;
+        margin-top: 8px;
+    }
+    .col-md-7 {
+        max-width: 450px;
+        width: 100%;
+    }
+    .card2 {
+        max-width: 100%;
+        width: 98.8%;
+        margin-left: 3px;
+    }
+    .col-md-5 {
+        width: 450px;
+    }
+}
+
+@media (max-width: 800px) {
+    .none {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .none1 {
+        display: none;
+    }
+    .col-md-5 {
+        align-items: center;
+    }
+}
+
+@media (max-width: 475px) {
+    .row {
+        width: 100%;
+    }
+    .col-md-5 {
+        padding: 0;
+    }
+    .bg-white {
+        margin-bottom: 2% !important;
+    }
+}
+
+
+@media (max-height: 999px) {
+    .modal {
+        position: absolute;
+        top: 50.5%;
+        height: 45%;
+        background-color: rgba(245, 245, 245, 0.9);
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        display: none;
+        margin-top: 8px;
+    }
+}
+
+@media (min-height: 1000px) {
+    .modal {
+        position: absolute;
+        top: 504px;
+        height: 450px;
+        background-color: rgba(245, 245, 245, 0.9);
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        display: none;
+        margin-top: 8px;
+    }
+}

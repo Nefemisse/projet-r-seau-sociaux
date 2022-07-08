@@ -1,0 +1,3 @@
+<?php
+    $fullname = 'Thomas Niaux';
+?>
