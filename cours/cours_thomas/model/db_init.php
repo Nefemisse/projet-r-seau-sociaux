@@ -10,7 +10,7 @@ foreach ($ini as $key => $value) {
 
 try
 {
-	$connexion = new PDO('mysql:host='._DB_HOST.';dbname='._DB_DATABASE.';charset=utf8', _DB_USER, _DB_PASSWORD);
+	//$connexion = new PDO('mysql:host='._DB_HOST.';dbname='._DB_DATABASE.';charset=utf8', _DB_USER, _DB_PASSWORD);
 }
 catch (Exception $e)
 {

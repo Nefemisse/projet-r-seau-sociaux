@@ -13,9 +13,9 @@
 <body>
     <div id="bloc_page_accueil">
         <header>
-                <?php 
-                    require_once __DIR__ . "./cours/cours_thomas/menu.php";
-                ?>
+            <?php 
+                require_once __DIR__ . "./cours/cours_thomas/menu.php";
+            ?>
         </header>
         <main>
             <section id="bloc_scroll_image_section">

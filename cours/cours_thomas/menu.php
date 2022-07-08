@@ -50,10 +50,10 @@ require_once __DIR__ . "./model/_model.php";
         </li>
       </ul>
       <li class="nav-item d-flex">
-          <a class="nav-link" href="./../../../cours/cours_thomas/login.php">Connexion</a>
+          <a class="nav-link" href="./login.php">Connexion</a>
       </li>
       <li class="nav-item d-flex">
-          <a class="nav-link" href="./../../../cours/cours_thomas/subscribe.php">Inscription</a>
+          <a class="nav-link" href="./subscribe.php">Inscription</a>
       </li>
     </div>
   </div>
